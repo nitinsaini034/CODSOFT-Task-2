@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header nav ul a{
+  padding: 5px;
+  margin: 60px;
+  text-decoration: none;
+}  
+.header nav ul {
+    padding-top: 15px;
+}
+.header nav ul a span{
+   position: relative;
+   color: white;
+   text-decoration: none;
+   font-size: 1.2em;
+   letter-spacing: 0.1em;
+   font-weight: 400;
+   padding: 0px 3px;
+   transition: 0.5s;
+   z-index: 0.5;
+}
+.header nav ul a span:hover{
+  background: var(--clr);
+  color: black;
+  letter-spacing: 0.1em;
+  box-shadow: 0 0 55px var(--clr);
+}
+.header nav ul a:before{
+  content: '';
+  background: black;
+}
+.education{
+  display: flex;
+  background: linear-gradient(212deg,#116b74 65%,white);
+  height: 87vh;
+  width: 100vw;
+  margin:55px 0px;
+ }
+ .education .collage{
+   position: absolute;
+   left: 2.5%;
+   margin-top: 40px;
+   border: 2px solid black;
+   border-radius: 10px;
+ } 
+ .line{
+  height: 3px;
+  width: 100%;
+  background-color: #0f3336;
+ }
+ .collage li{
+  padding:18px;
+  font-size: 30px;
+  color: white;
+ }
+.skill{
+  list-style: none;
+  width: 800px;
+  margin: 60px auto;
+  margin-top: 100px;
+  background-color:white;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  height: 65vh;
+  background: linear-gradient(212deg,#116b74 65%,white);
+  
+}
+.skill h1{
+  text-align: center;
+  color: white;
+}
+.skill h3{
+  margin: 5px;
+  color: white;
+}
+.skill li{
+  margin: 3px 0;
+  padding: 10px;
+}
+.bar{
+  background: transparent;
+  display: block;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px black;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.bar:hover{
+  box-shadow: 2px 3px 3px black;
+}
+.bar span{
+  height: 20px;
+  float: left;
+}
+.html{
+  width: 90%;
+  animation: html 3s;
+  background: orangered;
+}
+
+.css{
+  width: 80%;
+  animation: css 3s;
+  background: rgb(50, 50, 209);
+}
+.javascript{
+  width: 65%;
+  animation: javascript 3s;
+  background: rgb(246, 234, 10);
+}
+.react{
+  width: 60%;
+  animation: react 3s;
+  background: rgb(13, 243, 243);
+}
+@keyframes html{
+  0%{
+    width:0%
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css{
+  0%{
+    width:0%
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width:0%
+  }
+  100%{
+    width: 65%;
+  }
+}
+@keyframes react{
+  0%{
+    width:0%
+  }
+  100%{
+    width: 60%;
+  }
+}
+/* .city{
+  background-image: url(7583.jpg_wh1200.jpg); 
+  background-size:cover ;
+} */
+.contact{ 
+  background-image: linear-gradient(-20deg,rgb(144, 0, 255) 70%,black);
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 80vh;
+  width: 50vw;
+  border: 2px solid black;
+  margin-top: 40px;
+  background:#05eaff;
+  text-align: center;
+  
+}
+.box .heading{
+  position: relative;
+  left: 10em;
+   
+}
+.box h1{
+  margin-top: 10px;
+  left:25%  
+}
+.form-label{
+  font-size: 30px;
+}
+textarea{
+  height: 100px;
+}
+
+  
